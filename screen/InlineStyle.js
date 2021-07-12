@@ -1,10 +1,10 @@
 import React from 'react'
-import {View, Text} from 'react-native'
+import { View, Text } from 'react-native'
 
-const InlineStyle = () =>{
-    return(
+const InlineStyle = () => {
+    return (
         <View>
-            <Text style={{color:'red', fontSize:20}}>This is Inline Style</Text>
+            <Text style={{ color: 'red', fontSize: 20 }}>This is Inline Style</Text>
         </View>
     );
 }

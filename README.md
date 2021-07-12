@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
 ```
 
 ## Global Style :
-<p>In Global style first create a <b>Styles.js</b> file and put your all styles into this file </p>
+<p>In Global style first create a <b>Styles.js</b> file and put your all styles into this file and also export as a default</p>
 
 ```js
 export default StyleSheet.create({
@@ -39,7 +39,11 @@ export default StyleSheet.create({
         fontSize:20
     }
 })
+```
 
+<p>Or you can make diffrent diffrent style object and export.</p>
+
+```js
 export const globalStyle = StyleSheet.create({
     textStyle:{
         color:'lightblue',

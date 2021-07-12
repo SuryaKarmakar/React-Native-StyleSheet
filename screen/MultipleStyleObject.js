@@ -1,8 +1,8 @@
 import React from 'react'
-import {View, Text, StyleSheet} from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 
-const MultipleStyleObject = () =>{
-    return(
+const MultipleStyleObject = () => {
+    return (
         <View>
             <Text style={[styles.textColor, styles.textSize]}>Use Multuple Style Object</Text>
         </View>
@@ -12,10 +12,10 @@ const MultipleStyleObject = () =>{
 export default MultipleStyleObject;
 
 const styles = StyleSheet.create({
-    textColor:{
-        color:'blue'
+    textColor: {
+        color: 'blue'
     },
-    textSize:{
-        fontSize:20
+    textSize: {
+        fontSize: 20
     }
 })

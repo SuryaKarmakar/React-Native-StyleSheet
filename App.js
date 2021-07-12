@@ -1,12 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import InlineStyle from './screen/InlineStyle';
 import LocalStyle from './screen/LocalStyle';
 import GlobalStyle from './screen/GlobalStyle';
 import MultipleStyleObject from './screen/MultipleStyleObject';
 
-export default function App() {
+const App = () => {
   return (
     <View style={styles.container}>
       <InlineStyle />
@@ -28,3 +28,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+export default App;
